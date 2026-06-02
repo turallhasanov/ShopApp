@@ -1,12 +1,15 @@
-﻿using System;
+﻿using ShopApp.Helpers.Constans;
+using ShopApp.Helpers.Exceptions;
+using ShopApp.Models;
+using ShopApp.Services;
+using ShopApp.Services.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using ShopApp.Models;
-using ShopApp.Services;
-using ShopApp.Services.Interfaces;
 
 namespace ShopApp.Controllers
 {
@@ -23,7 +26,13 @@ namespace ShopApp.Controllers
         Name: string name = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(name))
             {
-                Console.WriteLine("Input Required");
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
+                goto Name;
+            }
+            string pattern = @"^[a-zA-ZğüşıöçĞÜŞİÖÇ]+$";
+            if (!Regex.IsMatch(name, pattern))
+            {
+                ConsoleColor.Gray.WriteToConsole(ValidationMessage.Format);
                 goto Name;
             }
 
@@ -33,6 +42,7 @@ namespace ShopApp.Controllers
             };
 
             _category.Create(categorys);
+            ConsoleColor.Green.WriteToConsole("Create Success: ");
         }
 
         public void ExecuteGetAll()
@@ -40,13 +50,13 @@ namespace ShopApp.Controllers
             var result = _category.GetAll();
             if (result.Count == 0)
             {
-                Console.WriteLine("No category");
+                ConsoleColor.Red.WriteToConsole("No Category");
                 return;
             }
 
             foreach (var item in result)
             {
-                Console.WriteLine($"{item.Id} {item.Name}");
+                ConsoleColor.DarkYellow.WriteToConsole($"{item.Id} {item.Name} {item.CreatedDate} ");
             }
         }
 
@@ -56,14 +66,21 @@ namespace ShopApp.Controllers
             idCategory:  string idCategory = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(idCategory))
             {
-                Console.WriteLine("Input required");
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
+                goto idCategory;
+            }
+            string patternNumber = @"^\d+$";
+
+            if (!Regex.IsMatch(idCategory, patternNumber))
+            {
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.Format);
                 goto idCategory;
             }
 
             bool isCorrectFormat = int.TryParse(idCategory, out int id);
             if (!isCorrectFormat)
             {
-                Console.WriteLine("----");
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.Format);
                 goto idCategory;
             }
             
@@ -77,13 +94,21 @@ namespace ShopApp.Controllers
         idCat: string idCategory = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(idCategory))
             {
-                Console.WriteLine("Input Requiered");
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
+                goto idCat;
+            }
+
+            string patternNumber = @"^\d+$";
+
+            if (!Regex.IsMatch(idCategory, patternNumber))
+            {
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.Format);
                 goto idCat;
             }
             bool isCorrectFormat = int.TryParse(idCategory, out int id);
             if (!isCorrectFormat)
             {
-                Console.WriteLine("----");
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.Format);
                 goto idCat;
             }
 
@@ -96,14 +121,22 @@ namespace ShopApp.Controllers
         idCategory: string idCategory = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(idCategory))
             {
-                Console.WriteLine("Input required");
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
+                goto idCategory;
+            }
+
+            string patternNumber = @"^\d+$";
+
+            if (!Regex.IsMatch(idCategory, patternNumber))
+            {
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.Format);
                 goto idCategory;
             }
 
             bool isCorrectFormat = int.TryParse(idCategory, out int id);
             if (!isCorrectFormat)
             {
-                Console.WriteLine("----");
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.Format);
                 goto idCategory;
             }
 
@@ -112,11 +145,17 @@ namespace ShopApp.Controllers
             CategoryServices categoryServices = new();
 
 
-            Console.WriteLine("name add");
+            Console.WriteLine("Add Name");
         Name: string name = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(name))
             {
-                Console.WriteLine("Input required");
+                ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
+                goto Name;
+            }
+            string pattern = @"^[a-zA-ZğüşıöçĞÜŞİÖÇ]+$";
+            if (!Regex.IsMatch(name, pattern))
+            {
+                ConsoleColor.Gray.WriteToConsole(ValidationMessage.Format);
                 goto Name;
             }
 
