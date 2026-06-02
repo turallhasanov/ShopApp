@@ -24,17 +24,17 @@ while (true)
 
     ConsoleColor.Red.WriteToConsole("\nSelect Operation: ");
     
-Contact: string shop = Console.ReadLine();
+Shop: string shop = Console.ReadLine();
     if (string.IsNullOrWhiteSpace(shop))
     {
         ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
-        goto Contact;
+        goto Shop;
     }
     bool isCorrectFormat = int.TryParse(shop, out int shopid);
     if (!isCorrectFormat)
     {
         ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
-        goto Contact;
+        goto Shop;
     }
     switch (shopid)
     {
