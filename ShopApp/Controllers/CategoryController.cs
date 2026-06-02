@@ -15,10 +15,10 @@ namespace ShopApp.Controllers
 {
     internal class CategoryController
     {
-        private readonly IBaseServices<Categorys> _category;
+        private readonly ICategoryServices _category;
         public CategoryController()
         {
-            _category = new BaseServices<Categorys>();
+            _category = new CategoryServices();
         }
         public void ExecuteCreate()
         {

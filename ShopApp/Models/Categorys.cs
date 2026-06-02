@@ -9,5 +9,7 @@ namespace ShopApp.Models
     internal class Categorys : BaseEntity
     {
         public string Name { get; set; }
+
+        public List<Products> Products { get; set; }
     }
 }

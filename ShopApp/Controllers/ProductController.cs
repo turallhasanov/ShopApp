@@ -1,4 +1,5 @@
-﻿using ShopApp.Helpers.Constans;
+﻿using ShopApp.Data;
+using ShopApp.Helpers.Constans;
 using ShopApp.Helpers.Exceptions;
 using ShopApp.Models;
 using ShopApp.Services;
@@ -14,71 +15,61 @@ namespace ShopApp.Controllers
 {
     internal class ProductController
     {
-        private readonly IBaseServices<Products> _product;
+        private readonly IProductServices _product;
         public ProductController()
         {
-            _product = new BaseServices<Products>();
+            _product = new ProductServices();
         }
         public void ExecuteCreate()
         {
             Console.WriteLine("Add Name");
-        Name: string name = Console.ReadLine();
+
+        Name:
+            string name = Console.ReadLine();
+
             if (string.IsNullOrWhiteSpace(name))
             {
                 ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
                 goto Name;
             }
-            string pattern = @"^[a-zA-ZğüşıöçĞÜŞİÖÇ]+$";
-            if (!Regex.IsMatch(name, pattern))
-            {
-                ConsoleColor.Gray.WriteToConsole(ValidationMessage.Format);
+
+            if (!Regex.IsMatch(name, @"^[a-zA-ZğüşıöçĞÜŞİÖÇ\s]+$"))
                 goto Name;
-            }
-            Console.WriteLine("Add Price Product");
-        Price: string price = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(price))
-            {
-                ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
-                goto Price;
-            }
-            string patternNumber = @"^-?\d+([\.,]\d+)?$";
 
-            if (!Regex.IsMatch(price, patternNumber))
-            {
-                ConsoleColor.Red.WriteToConsole(ValidationMessage.Format);
-                goto Price;
-            }
+            Console.WriteLine("Add Price");
+            string priceInput = Console.ReadLine();
 
-            bool isCorrectFormat = double.TryParse(price, out double pricee);
-            if (!isCorrectFormat)
-            {
-                ConsoleColor.Red.WriteToConsole(ValidationMessage.Format);
-                goto Price;
-            }
+            if (!double.TryParse(priceInput, out double price))
+                goto Name;
 
             Console.WriteLine("Add Description");
-        Descripton: string description = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(description))
+        Desc:
+            string desc = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(desc))
+                goto Desc;
+
+            Console.WriteLine("Enter Category Id");
+            string catInput = Console.ReadLine();
+
+            if (!int.TryParse(catInput, out int categoryId))
             {
-                ConsoleColor.Red.WriteToConsole(ValidationMessage.InputRequired);
-                goto Name;
-            }
-            string patternn = @"^[a-zA-ZğüşıöçĞÜŞİÖÇ]+$";
-            if (!Regex.IsMatch(description, patternn))
-            {
-                ConsoleColor.Gray.WriteToConsole(ValidationMessage.Format);
-                goto Descripton;
+                ConsoleColor.Red.WriteToConsole("Invalid Category Id");
+                return;
             }
 
-            Products products = new()
+
+            var product = new Products
             {
                 Name = name,
-                Price = pricee,
-                Description = description
+                Price = price,
+                Description = desc,
+                CategoryId = categoryId,
             };
 
-            _product.Create(products);
-            ConsoleColor.Green.WriteToConsole("Create Success: ");
+            _product.Create(product);
+
+            ConsoleColor.Green.WriteToConsole("Product created");
         }
 
         public void ExecuteGetAll()
@@ -92,7 +83,7 @@ namespace ShopApp.Controllers
 
             foreach (var item in result)
             {
-                ConsoleColor.DarkYellow.WriteToConsole($"{item.Id} {item.Name} {item.Price} {item.Description} {item.CreatedDate} ");
+                ConsoleColor.DarkYellow.WriteToConsole($"{item.Id} {item.Name} {item.Price} {item.Description} {item.CreatedDate} {item.CategoryId} {item.Category}");
             }
         }
 
@@ -234,7 +225,7 @@ namespace ShopApp.Controllers
             {
                 Name = name,
                 Price = pricee,
-                Description = description
+                Description = description,
             };
 
             productServices.Update(id, products);
