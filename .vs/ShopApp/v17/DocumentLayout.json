@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\services\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\services\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\services\\baseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\services\\baseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\models\\categorys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\models\\categorys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\services\\interfaces\\ibaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\services\\interfaces\\ibaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\services\\interfaces\\icategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\services\\interfaces\\icategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\services\\interfaces\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\services\\interfaces\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|c:\\users\\turalvh\\source\\repos\\shopapp\\shopapp\\shopapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3D6D3751-8D8F-4D48-A451-4B94A2EA571E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\shopapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ShopApp\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T09:56:53.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseServices.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\BaseServices.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Services\\BaseServices.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\BaseServices.cs",
+              "RelativeToolTip": "ShopApp\\Services\\BaseServices.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T07:40:09.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Program.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Program.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Program.cs",
+              "RelativeToolTip": "ShopApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T07:32:47.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "ShopApp\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T07:34:16.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Categorys.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Models\\Categorys.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Models\\Categorys.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Models\\Categorys.cs",
+              "RelativeToolTip": "ShopApp\\Models\\Categorys.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T07:34:08.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryServices.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\CategoryServices.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Services\\CategoryServices.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\CategoryServices.cs",
+              "RelativeToolTip": "ShopApp\\Services\\CategoryServices.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T09:27:23.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShopApp\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T09:56:39.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\ProductServices.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Services\\ProductServices.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\ProductServices.cs",
+              "RelativeToolTip": "ShopApp\\Services\\ProductServices.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T07:39:39.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBaseServices.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\Interfaces\\IBaseServices.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Services\\Interfaces\\IBaseServices.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\Interfaces\\IBaseServices.cs",
+              "RelativeToolTip": "ShopApp\\Services\\Interfaces\\IBaseServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T07:40:22.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICategoryServices.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\Interfaces\\ICategoryServices.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Services\\Interfaces\\ICategoryServices.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\Interfaces\\ICategoryServices.cs",
+              "RelativeToolTip": "ShopApp\\Services\\Interfaces\\ICategoryServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T09:28:08.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ShopApp\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T07:38:05.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\Interfaces\\IProductServices.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Services\\Interfaces\\IProductServices.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Services\\Interfaces\\IProductServices.cs",
+              "RelativeToolTip": "ShopApp\\Services\\Interfaces\\IProductServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T07:40:00.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\Models\\Products.cs",
+              "RelativeToolTip": "ShopApp\\Models\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T07:33:54.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShopApp.csproj",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\ShopApp.csproj",
+              "RelativeDocumentMoniker": "ShopApp\\ShopApp.csproj",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\ShopApp\\ShopApp\\ShopApp.csproj",
+              "RelativeToolTip": "ShopApp\\ShopApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-02T07:33:00.377Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
